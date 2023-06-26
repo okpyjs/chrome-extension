@@ -22,7 +22,7 @@ function executeAtRandomInterval() {
 }
 
 var url = window.location.href
-if(url.includes("openai")) {
+if(url.includes("upwork.com/nx/jobs/search")) {
     // Start the execution
     executeAtRandomInterval();
 }
